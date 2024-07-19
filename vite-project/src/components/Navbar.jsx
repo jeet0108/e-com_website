@@ -23,14 +23,14 @@ function Navbar() {
           </select>
         </div>
       </div>
-      <div className="flex w-full bg-white justify-between px-32 items-center py-2">
+      <div className="flex w-full bg-white justify-between px-32 items-center py-2 shadow-md">
         <div className="  font-bold text-xl">Exclusive</div>
         <div className="">
           <ul className=" flex justify-around gap-20 font-semibold">
             <li><a href="">Home</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Contact</a></li>
-            <li><a href="">Sign up</a></li>
+            <li><a href="">Signup</a></li>
           </ul>
         </div>
         <div className=" flex justify-around items-center gap-2">

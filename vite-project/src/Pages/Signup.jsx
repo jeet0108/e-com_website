@@ -13,7 +13,7 @@ const Signup = () =>{
                 <input 
                     type="text"
                     className='mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm'
-                    required
+                    reqlired
                 />
             </div>
             <div className='mb-4'>
@@ -22,7 +22,7 @@ const Signup = () =>{
                     type="email" 
                     id='email'
                     className='mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm'
-                    required
+                    reqlired
                 />
             </div>
             <div className='mb-4'>
@@ -31,13 +31,13 @@ const Signup = () =>{
                     type="text"
                     id='password'
                     className='mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm'    
-                    required
+                    reqlired
                 />
             </div>
             <div className="flex pb-1">
                 <input 
                     type="checkbox" 
-                    required
+                    reqlired
                     />
                 <h1 className="pl-1 ">I agree with the <a href="" className=" underline"> Terms of services</a> and <a href="" className=" underline">Privacy Policy</a></h1>
             </div>
