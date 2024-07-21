@@ -11,33 +11,33 @@ function Home() {
       <Navbar />
       <div className="flex ">
         <div className="px-24 pt-14 border-r-2 w-96 ">
-          <ul className="flex  flex-col gap-y-5  font-bold ">
+          <ul className="flex  flex-col gap-y-5  font-bold hover:text-gray-700">
             <li>
-              <a href="">Woman's fashion</a>
+              <a href="">Apple Series</a>
             </li>
             <li>
-              <a href="">Men's fashion</a>
+              <a href="">Realme Phone</a>
             </li>
             <li>
-              <a href="">Electronics</a>
+              <a href="">Oppo Phone</a>
             </li>
             <li>
-              <a href="">Home & Lifestyle</a>
+              <a href="">Vivo Phone</a>
             </li>
             <li>
-              <a href="">sports & Outdoor</a>
+              <a href="">Samsung S-series</a>
             </li>
             <li>
-              <a href="">Beauty Products</a>
+              <a href="">OnePlus Phone</a>
             </li>
             <li>
-              <a href="">Medicine</a>
+              <a href="">Others</a>
             </li>
             
           </ul>
         </div>
-        <div className="w-full p-12 ">
-          <div className="bg-black   flex justify-around">
+        <div className="w-full py-10 px-14">
+          <div className="bg-black   flex justify-around ">
             <div className="w-1/2 py-14 px-36 ">
               <div className="flex items-center  ">
                 <div>
@@ -65,7 +65,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   );
 }

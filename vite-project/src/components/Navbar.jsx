@@ -1,6 +1,9 @@
 import React from "react";
 import { FcSearch, FcLike } from "react-icons/fc";
 import { IoCartOutline, IoSearch, IoHeartOutline } from "react-icons/io5";
+import { MdOutlineAccountCircle } from "react-icons/md";
+
+
 function Navbar() {
   return (
     <div>
@@ -24,20 +27,20 @@ function Navbar() {
         </div>
       </div>
       <div className="flex w-full bg-white justify-between px-32 items-center py-2 shadow-md">
-        <div className="  font-bold text-xl">Exclusive</div>
+        <div className="  font-bold text-xl">PhoneWale</div>
         <div className="">
           <ul className=" flex justify-around gap-20 font-semibold">
             <li><a href="">Home</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Contact</a></li>
-            <li><a href="">Signup</a></li>
+            <li><a href="">Login</a></li>
           </ul>
         </div>
         <div className=" flex justify-around items-center gap-2">
           <form className=" w-full flex items-center">
             <input
               type="text"
-              className=" border-2 px-2 w-64 py-2 rounded-sm border-none bg-gray-100"
+              className=" border-2 px-2 w-64 py-2 rounded-md border-none bg-gray-200"
               placeholder=" What area you looking for ?"
             ></input>
             <button className=" relative right-8 ">
@@ -48,6 +51,8 @@ function Navbar() {
           <div className=" flex items-center gap-5 font-bold text-2xl">
             <IoHeartOutline />
             <IoCartOutline />
+            <MdOutlineAccountCircle />
+
           </div>
         </div>
       </div>
